@@ -162,7 +162,6 @@ export default function DashboardLayout({ children }: DashboardLayoutProps) {
           {!collapsed && (
             <h1 className="text-xl font-bold">{translation("Dashboard")}</h1>
           )}
-
           <Link href="/channels" className="text-3xl font-bold text-left">
             <ChevronLeft size={20} />
           </Link>
